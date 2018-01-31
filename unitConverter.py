@@ -9,10 +9,10 @@ print("4) Celcius to Fahrenheit")
 number=int(input("Choose a number: "))
 if number==1:
     km=int(input("Enter distance in kilometers: "))
-    print(km,"kilometers is",
-    0.621371
+    print(km,"kilometers is",round(0.621371*km,5),"miles")
 elif number==2:
     kg=int(input("Enter weight in kilograms: "))
+    print(kg,"kilograms is",round(kg*
 elif number==3:
     l=int(input("Enter volume in liters: "))
 elif number==4:
