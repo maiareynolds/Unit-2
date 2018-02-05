@@ -24,11 +24,11 @@ elif cross=="no":
                 if blue=="yes":
                     print("You see a man playing chess")
                     join=input("Do you join him? ")
-                    if ...
+                    
                 elif blue=="no":
                     print("You decide to walk down the hallway a bit more and reach a buffet")
                     food=input("Do you eat the food? ")
-                    if ...
+                    
                 else:
                     print("You entered something incorrectly. Game Over")
             else:
