@@ -24,7 +24,17 @@ elif cross=="no":
                 if blue=="yes":
                     print("You see a man playing chess")
                     join=input("Do you join him? ")
-                    
+                    if join=="yes":
+                        print("You sit down and start playing chess with the man when he asks what your name is")
+                        name=input("Do you tell him your name? ")
+                        if name=="yes"
+                        realname=input("What is your name? ")
+                        print("Well",realname,"you shouldn't talk to strangers. Game over")
+                        elif name=="no"
+                        
+                        else:
+                            print("You entered something incorrectly. Game Over")
+                        
                 elif blue=="no":
                     print("You decide to walk down the hallway a bit more and reach a buffet")
                     food=input("Do you eat the food? ")
