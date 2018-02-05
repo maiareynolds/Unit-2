@@ -35,7 +35,9 @@ elif cross=="no":
                         else:
                             print("You entered something incorrectly. Game Over")
                     elif join=="no":
-                        
+                    else:
+                        print("You entered something incorrectly. Game Over")
+
                 elif blue=="no":
                     print("You decide to walk down the hallway a bit more and reach a buffet")
                     food=input("Do you eat the food? ")
