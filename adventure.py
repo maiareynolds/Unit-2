@@ -14,13 +14,23 @@ elif cross=="no":
         elevator=input("Do you use the elevator? ")
         if elevator=="yes":
             print("You get stuck halfway between the second and third floor. Game over")
-        if elevator=="no":
+        elif elevator=="no":
             print("You take the stairs to the third floor and see a red and a blue door")
             red=input("Do you enter the red door? ")
             if red=="yes":
-                ...
+                print("You fall down a set of stairs. Game over") 
             elif red=="no":
-                ..
+                blue=input("Do you enter the blue door? ")
+                if blue=="yes":
+                    print("You see a man playing chess")
+                    join=input("Do you join him? ")
+                    if ...
+                elif blue=="no":
+                    print("You decide to walk down the hallway a bit more and reach a buffet")
+                    food=input("Do you eat the food? ")
+                    if ...
+                else:
+                    print("You entered something incorrectly. Game Over")
             else:
                 print("You entered something incorrectly. Game Over")
         else:
