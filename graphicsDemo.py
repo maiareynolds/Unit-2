@@ -15,7 +15,7 @@ redRectangle=RectangleAsset(200,100,blackOutline,red) #width, height, outline, f
 blueCircle=CircleAsset(50,blackOutline,blue) #radius, outline, fill
 greenEllipse=EllipseAsset(100,50,blackOutline,green) #width, height, outline, fill
 blackLine=LineAsset(500,100,blackOutline) #to x over, to y over, lineStyle
-purpleTriangle=PolygonAsset([(0,0),(120,180),(60,300)],blackOutline,purple) #endpoints, outline, fill
+purpleTriangle=PolygonAsset([(500,100),(550,0),(600,100)],blackOutline,purple) #endpoints, outline, fill
 
 Sprite(redRectangle)
 Sprite(blueCircle,(200,0)) #... ,(over x, over y)
