@@ -10,3 +10,5 @@ blackOutline=LineStyle(1,black)
 redRectangle=RectangleAsset(200,100,blackOutline,red) #width, height, outline, fill
 
 Sprite(redRectangle)
+
+App().run()
