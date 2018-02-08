@@ -36,19 +36,3 @@ Sprite(roofline,(500,100))
 Sprite(window,(427.5,240))
 Sprite(window,(537.5,240))
 App().run()
-
-
-blackOutline=LineStyle(1,black)
-redRectangle=RectangleAsset(200,100,blackOutline,red) #width, height, outline, fill
-blueCircle=CircleAsset(50,blackOutline,blue) #radius, outline, fill
-greenEllipse=EllipseAsset(100,50,blackOutline,green) #width, height, outline, fill
-blackLine=LineAsset(500,100,blackOutline) #to x over, to y over, lineStyle
-purpleTriangle=PolygonAsset([(0,100),(50,200),(100,100)],blackOutline,purple) #endpoints, outline, fill
-text=TextAsset("Maia", fill=blue, style="bold 60pt Times") #What you want, other options
-
-Sprite(redRectangle)
-Sprite(blueCircle,(200,0)) #... ,(over x, over y)
-Sprite(greenEllipse,(300,0))
-Sprite(blackLine)
-Sprite(purpleTriangle)
-Sprite(text,(600,0))
