@@ -7,9 +7,13 @@ basecolor=Color(0x00B2EE,1)
 outlinecolor=Color(0x00688B,1)
 baseoutline=LineStyle(1,outlinecolor)
 
+
 front=PolygonAsset([(400,200),(500,100),(600,200),(600,300),(400,300)],baseoutline,basecolor)
+side=PolygonAsset([(400,300),(300,250),(300,150),(400,200)],baseoutline,basecolor)
+roof
 
 Sprite(front,(400,100))
+Sprite(side,(300,150))
 App().run()
 
 blackOutline=LineStyle(1,black)
