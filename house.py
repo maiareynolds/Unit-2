@@ -7,10 +7,10 @@ basecolor=Color(0x00B2EE,1)
 outlinecolor=Color(0x00688B,1)
 baseoutline=LineStyle(1,outlinecolor)
 
-front=RectangleAsset(200,100,baseoutline,basecolor)
-front2=PolygonAsset([(400,200
+front=PolygonAsset([(400,200),(500,100),(600,200),(600,300),(400,300)],baseoutline,basecolor)
 
-Sprite(front,(400,200))
+Sprite(front,(400,100))
+App().run()
 
 blackOutline=LineStyle(1,black)
 redRectangle=RectangleAsset(200,100,blackOutline,red) #width, height, outline, fill
@@ -26,5 +26,3 @@ Sprite(greenEllipse,(300,0))
 Sprite(blackLine)
 Sprite(purpleTriangle)
 Sprite(text,(600,0))
-
-App().run()
